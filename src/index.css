@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-50: #f0f9ff;
+  --color-brand-100: #e0f2fe;
+  --color-brand-500: #0076A3;
+  --color-brand-600: #005f85;
+  --color-brand-700: #1A2E35;
+  --color-brand-800: #101F24;
+  
+  --color-hospital-blue: #0076A3;
+  --color-hospital-green: #2ECC71;
+  --color-hospital-dark: #1A2E35;
+  --color-hospital-bg: #F9FBFD;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-hospital-bg);
+  color: var(--color-hospital-dark);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+

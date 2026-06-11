@@ -1,0 +1,6 @@
+{
+  "name": "Life Care Hospital - Gohana",
+  "description": "Comprehensive web application for Life Care Hospital, Gohana including interactive appointment scheduling, medical services information, doctor directories, and patient portal features.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
